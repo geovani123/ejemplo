@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).on("pagecreate","#page2",function(){
-  $("guason").on("tap",function(){
+  $("#guason").on("tap",function(){
     $(this).hide();
   });                       
 });
